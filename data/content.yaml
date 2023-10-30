@@ -1,0 +1,149 @@
+BasicInfo:
+  FirstName: Daniil
+  LastName: Fedyaev
+  Photo: img/avatar.jpg
+  Contacts:
+    - Icon: fas fa-phone
+      Info: +996 554 525 795
+    - Icon: fas fa-envelope
+      Info: fedyaev.daniil.work@gmail.com
+    - Icon: fas fa-globe
+      Info: <a class="contact__link" href="https://www.linkedin.com/in/wintercitizen/" target="_blank">Linkedin</a>
+    - Icon: fas fa-map-marker-alt
+      Info: Russia
+
+Profile: |
+  Python Backend Developer with 6+ years in high-load systems & AWS. Expert in
+  system architecture. Passionate about Python types. Adept at scalable solutions &
+  best practices. Seeking advanced roles.
+
+Experience:
+  - Employer: Mad Devs
+    Place: Bishkek, Kyrgyzstan
+    Positions:
+      - Title: Software Engineer
+        Date: Aug 2021 - Sep 2023
+        Details:
+          - Led a Small Development Team
+          - Spearheaded the development of 5 Python microservices catering to various functionalities.
+          - Successfully implemented 100% test coverage ensuring robustness and quality of services.
+          - Developed a service to recommend products based on multiple user parameters.
+          - Integrated the service into the existing system for filtering and prioritizing sponsored products.
+          - Processed analytical data from GTM to enhance recommendation relevance using the user's browsing history.
+          - Achieved a 20x increase in RPS by buffering high-volume requests from GTM.
+          - Abstracted recommendation logic for consistent use across multiple API interfaces (gRPC, HTTP).
+          - Designed a Chatbot on ChatGPT to assist users in product discovery.
+          - Ensured consistent product recommendations by crafting precise initial prompts and controlling ChatGPT’s independent recommendation tendencies.
+          - Data Synchronization Service
+          - Created a service for data synchronization from 30+ project services to CRM.
+          - Gathered data from multiple sources (gRPC, Kafka) and batched it for deduplication and orderly CRM updates.
+          - Adopted an event-driven architecture allowing flexibility in event handler management and isolated testing.
+          - Developed a service integrating with multiple location data providers (Google Maps, Maxmind, GeoNames).
+          - Provided location search capabilities via georedis and location autocomplete functionalities with rediserarch.
+          - Designed a service using FastAPI to bridge browser requests with gRPC.
+          - Bypassed grpc-gateway in favor of FastAPI's flexibility, async capabilities, and validation features.
+          - Enhanced security by obscuring sensitive gRPC methods and ensuring stringent authentication and authorization.
+        Badges: ['Python', 'Django', 'OOP', 'Javascript', 'HTML', 'gRPC', 'Redis', 'System Design', 'Agile']
+  - Employer: Cenarius LLC
+    Place: St. Petersburg, Russia
+    Positions:
+      - Title: Software Engineer
+        Date: Oct 2020 - Jul 2021
+        Details:
+          - Engineered a robust backend for popular browser games using Python, integrating FastAPI and aiohttp.
+          - Effectively managed 500+ simultaneous WebSocket connections, optimizing the user experience for players.
+          - Utilized Locust for rigorous stress testing to validate system performance and resilience under peak demands.
+          - Leveraged Kubernetes for streamlined deployment and continuous integration, enhancing the overall development workflow.
+          - Played a crucial role in significantly amplifying business revenue.
+          - Drove growth by implementing technical innovations and ensuring flawless gameplay experiences for users.
+        Badges: ['Python', 'aiohttp', 'FastAPI', 'SQL', 'Redis', 'WebSocket', 'System Design', 'Agile']
+  - Employer: Evrone
+    Place: St. Petersburg, Russia
+    Positions:
+      - Title: Software Engineer
+        Date: Aug 2019 - Jul 2020
+        Details:
+          - Developed backends for a range of diverse web applications.
+          - Conceived and executed a unique bookmarking system capturing real-time screenshots of user bookmarks.
+          - Utilized Selenium and a headless Xorg server, ensuring users receive the latest visual previews.
+          - Spearheaded the development of a binary option system rooted in Ethereum smart contracts, enhanced by a GraphQL API.
+          - Took initiative in optimizing the GraphQL parser, markedly improving response times for extensive queries, ensuring rapid and efficient user interactions.
+          - Demonstrated a steadfast commitment to pioneering solutions and enhancing user experiences.
+          - Displayed notable technical expertise with a propensity for addressing intricate challenges.
+        Badges: ['Python', 'Django', 'GraphQL', 'Smart Contracts', 'Dev Ops', 'asyncio', 'SQL', 'Redis', 'Selenium', 'Agile']
+  - Employer: GS Labs
+    Place: St. Petersburg, Russia
+    Positions:
+      - Title: Software Engineer
+        Date: Jun 2018 - Jul 2019
+        Details:
+          - Developed complex backends for cutting-edge systems.
+          - Designed a specialized update service dedicated to client TV boxes.
+          - Employed aiohttp for the efficient and seamless rollout of software updates, ensuring top-tier performance and the latest features for users.
+          - Led the design and implementation of a robust analytics platform.
+          - Integrated gRPC for effective communication, paired with the Go programming language for peak backend performance.
+          - Incorporated NATS to facilitate scalable messaging, guaranteeing real-time and precise data processing.
+        Badges: ['Python', 'Django', 'aiohttp', 'asyncio', 'SQL', 'Redis', 'Go', 'NATS', 'gRPC', 'Agile']
+  - Employer: WWHW
+    Place: St. Petersburg, Russia
+    Positions:
+      - Title: Software Engineer
+        Date: Jul 2017 - May 2018
+        Details:
+          - Developed intricate backends for a variety of applications.
+          - Launched a global platform for collecting events.
+          - Implemented a deduplication system for events using title, location, and timing criteria.
+          - Designed a custom service for dynamic scraper deployment and management, optimizing cluster resource usage and granting the QA team unprecedented control.
+          - Embarked on an innovative project using functional programming to develop a chat application in HyLang, supported by MongoDB.
+          - The project highlighted the potential of integrating functional programming paradigms with contemporary database systems.
+          - Introduced a comprehensive solution allowing passengers to pay for rides through a mobile application or SMS.
+          - Expanded payment methods by deploying a dedicated ATS, enabling payment via phone calls.
+          - Consistently demonstrated adaptability in backend development, merging creative approaches with efficient solutions to meet diverse challenges.
+        Badges: ['Python', 'Django', 'hylang', 'asyncio', 'SQL', 'MongoDB', 'Redis', 'Agile']
+
+Education:
+  - Course: Bachelor degree in Computer Science
+    Place: Technical College of Management and Commerce
+    Date: Sep 2013 - Jul 2017
+
+Skills:
+  - Family: Programming
+    Items:
+      - Python
+      - Go
+      - HTML (including Jinja)
+      - Javascript
+      - CSS
+      - SASS
+      - SQL
+      - Bash
+      - Rust
+      - C
+  - Family: Frameworks
+    Items:
+      - Django
+      - FastAPI
+      - Tornado
+  - Family: Developer Tools
+    Items:
+      - Git
+      - Docker
+      - AWS
+  - Family: Misc
+    Items:
+      - Neovim
+
+Languages:
+  - Name: Russian
+    Level: Native
+  - Name: English
+    Level: B2
+  - Name: German
+    Level: A1.1
+
+Interests:
+  - Bouldering
+  - Traveling
+  - Keyboards
+  - Programming
+  - Languages
