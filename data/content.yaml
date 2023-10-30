@@ -44,6 +44,7 @@ Experience:
           - Bypassed grpc-gateway in favor of FastAPI's flexibility, async capabilities, and validation features.
           - Enhanced security by obscuring sensitive gRPC methods and ensuring stringent authentication and authorization.
         Badges: ['Python', 'Django', 'OOP', 'Javascript', 'HTML', 'gRPC', 'Redis', 'System Design', 'Agile']
+
   - Employer: Cenarius LLC
     Place: St. Petersburg, Russia
     Positions:
@@ -57,6 +58,7 @@ Experience:
           - Played a crucial role in significantly amplifying business revenue.
           - Drove growth by implementing technical innovations and ensuring flawless gameplay experiences for users.
         Badges: ['Python', 'aiohttp', 'FastAPI', 'SQL', 'Redis', 'WebSocket', 'System Design', 'Agile']
+
   - Employer: Evrone
     Place: St. Petersburg, Russia
     Positions:
@@ -71,6 +73,7 @@ Experience:
           - Demonstrated a steadfast commitment to pioneering solutions and enhancing user experiences.
           - Displayed notable technical expertise with a propensity for addressing intricate challenges.
         Badges: ['Python', 'Django', 'GraphQL', 'Smart Contracts', 'Dev Ops', 'asyncio', 'SQL', 'Redis', 'Selenium', 'Agile']
+
   - Employer: GS Labs
     Place: St. Petersburg, Russia
     Positions:
@@ -84,6 +87,7 @@ Experience:
           - Integrated gRPC for effective communication, paired with the Go programming language for peak backend performance.
           - Incorporated NATS to facilitate scalable messaging, guaranteeing real-time and precise data processing.
         Badges: ['Python', 'Django', 'aiohttp', 'asyncio', 'SQL', 'Redis', 'Go', 'NATS', 'gRPC', 'Agile']
+
   - Employer: WWHW
     Place: St. Petersburg, Russia
     Positions:
