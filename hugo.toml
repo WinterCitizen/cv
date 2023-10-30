@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://wintercitizen.github.io/cv/'
 languageCode = 'en-us'
 title = 'Daniil Fedyaev'
 theme = 'almeida-cv'
