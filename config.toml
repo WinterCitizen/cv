@@ -6,7 +6,7 @@ enableEmoji = true
 theme = "almeida-cv"
 disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
-baseURL = "https://wintercitizen.github.io/cv/"
+baseURL = "https://cv.wintercitizen.me/"
 title = "Daniil Fedyaev"
 #googleAnalytics = ""
 
