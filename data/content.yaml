@@ -6,7 +6,7 @@ BasicInfo:
     - Icon: fas fa-phone
       Info: +996 554 525 795
     - Icon: fas fa-envelope
-      Info: fedyaev.daniil.work@gmail.com
+      Info: work@mail.daniilf.me
     - Icon: fas fa-globe
       Info: <a class="contact__link" href="https://cv.wintercitizen.me" target="_blank">Personal Site</a>
     - Icon: fab fa-linkedin-in
@@ -25,8 +25,11 @@ Experience:
   - Employer: Mad Devs
     Place: Bishkek, Kyrgyzstan
     Positions:
-      - Title: Software Engineer
+      - Title: Python Team Lead
         Date: Aug 2021 - Sep 2023
+        Description: |
+          Led a team of 4 backend developers in creation of several <a class="experience__link" href="https://clutch.co" target="_blank">Clutch.co</a> services.
+          Our main focus was a recommendations system, geolocation service, data collection & crm synchronization and ChatBot on ChatGPT.
         Details:
           - Led a Small Development Team
           - Spearheaded the development of 5 Python microservices catering to various functionalities.
@@ -52,8 +55,10 @@ Experience:
   - Employer: Cenarius LLC
     Place: St. Petersburg, Russia
     Positions:
-      - Title: Software Engineer
+      - Title: Python Developer
         Date: Oct 2020 - Jul 2021
+        Description: |
+          Browser games backend development.
         Details:
           - Engineered a robust backend for popular browser games using Python, integrating FastAPI and aiohttp.
           - Effectively managed 500+ simultaneous WebSocket connections, optimizing the user experience for players.
@@ -66,8 +71,11 @@ Experience:
   - Employer: Evrone
     Place: St. Petersburg, Russia
     Positions:
-      - Title: Software Engineer
+      - Title: Python Developer
         Date: Aug 2019 - Jul 2020
+        Description: |
+          Developed backends for various web applications, including bookmarking system that kept screenshots of bookmarks up to date
+          a binary option on top of ethereum network.
         Details:
           - Developed backends for a range of diverse web applications.
           - Conceived and executed a unique bookmarking system capturing real-time screenshots of user bookmarks.
@@ -81,8 +89,11 @@ Experience:
   - Employer: GS Labs
     Place: St. Petersburg, Russia
     Positions:
-      - Title: Software Engineer
+      - Title: Python Developer
         Date: Jun 2018 - Jul 2019
+        Description: |
+          Developed services for satellite television company. My services were responsible for serving firmware updates for client devices
+          and collecting/processing analytical data from various company services.
         Details:
           - Developed complex backends for cutting-edge systems.
           - Designed a specialized update service dedicated to client TV boxes.
@@ -95,8 +106,10 @@ Experience:
   - Employer: WWHW
     Place: St. Petersburg, Russia
     Positions:
-      - Title: Software Engineer
+      - Title: Python Developer
         Date: Jul 2017 - May 2018
+        Description: |
+          Developed a data collecting system for a worldwide offline events application.
         Details:
           - Developed intricate backends for a variety of applications.
           - Launched a global platform for collecting events.
@@ -119,6 +132,7 @@ Skills:
     Items:
       - Python
       - Go
+      - Kafka
       - HTML (including Jinja)
       - Javascript
       - CSS
@@ -140,6 +154,8 @@ Skills:
   - Family: Misc
     Items:
       - Neovim
+      - Linux
+      - CI
 
 Languages:
   - Name: Russian
